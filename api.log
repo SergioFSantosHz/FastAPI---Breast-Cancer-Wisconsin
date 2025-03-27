@@ -1,0 +1,64 @@
+2025-03-26 18:53:30,886 - uvicorn.error - INFO - Will watch for changes in these directories: ['C:\\Users\\liter\\Documents\\FastAPI']
+2025-03-26 18:53:30,886 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2025-03-26 18:53:30,887 - uvicorn.error - INFO - Started reloader process [5332] using statreload
+2025-03-26 18:53:31,973 - uvicorn.error - INFO - Started server process [19948]
+2025-03-26 18:53:31,973 - uvicorn.error - INFO - Waiting for application startup.
+2025-03-26 18:53:31,974 - main - INFO - Starting up the API server
+2025-03-26 18:53:31,974 - main - INFO - Model file breast_cancer_model.pkl not found. Training a new model.
+2025-03-26 18:53:31,974 - main - INFO - Loading breast cancer dataset
+2025-03-26 18:53:31,998 - main - INFO - Dataset loaded with 569 samples and 30 features
+2025-03-26 18:53:31,999 - main - INFO - Training Random Forest classifier
+2025-03-26 18:53:32,143 - main - INFO - Model trained with accuracy: 0.9649
+2025-03-26 18:53:32,146 - main - INFO - Model saved to breast_cancer_model.pkl
+2025-03-26 18:53:32,146 - main - INFO - API server started successfully
+2025-03-26 18:53:32,146 - uvicorn.error - INFO - Application startup complete.
+2025-03-26 18:53:44,658 - uvicorn.error - INFO - Started server process [8952]
+2025-03-26 18:53:44,658 - uvicorn.error - INFO - Waiting for application startup.
+2025-03-26 18:53:44,659 - main - INFO - Starting up the API server
+2025-03-26 18:53:44,659 - main - INFO - Loading model from breast_cancer_model.pkl
+2025-03-26 18:53:44,663 - main - INFO - Model loaded successfully
+2025-03-26 18:53:44,663 - main - INFO - API server started successfully
+2025-03-26 18:53:44,664 - uvicorn.error - INFO - Application startup complete.
+2025-03-26 18:54:23,640 - main - INFO - Root endpoint accessed
+2025-03-26 18:55:30,815 - main - INFO - Root endpoint accessed
+2025-03-26 18:56:09,320 - main - INFO - Loading model from breast_cancer_model.pkl
+2025-03-26 18:56:09,327 - main - INFO - Model loaded successfully
+2025-03-26 18:56:09,327 - main - INFO - Prediction endpoint accessed
+2025-03-26 18:56:09,333 - main - INFO - Prediction made: {'prediction': 0, 'prediction_label': np.str_('malignant'), 'probability': 0.96}
+2025-03-26 19:23:54,765 - uvicorn.error - INFO - Started server process [7640]
+2025-03-26 19:23:54,765 - uvicorn.error - INFO - Waiting for application startup.
+2025-03-26 19:23:54,765 - main - INFO - Iniciando el servidor API
+2025-03-26 19:23:54,765 - main - INFO - Archivo de modelo modelo_cancer_mama.pkl no encontrado. Entrenando un nuevo modelo.
+2025-03-26 19:23:54,765 - main - INFO - Cargando conjunto de datos de cáncer de mama
+2025-03-26 19:23:54,774 - main - INFO - Conjunto de datos cargado con 569 muestras y 30 características
+2025-03-26 19:23:54,775 - main - INFO - Entrenando clasificador Random Forest
+2025-03-26 19:23:54,939 - main - INFO - Modelo entrenado con precisión: 0.9649
+2025-03-26 19:23:54,946 - main - INFO - Modelo guardado en modelo_cancer_mama.pkl
+2025-03-26 19:23:54,946 - main - INFO - Servidor API iniciado exitosamente
+2025-03-26 19:23:54,946 - uvicorn.error - INFO - Application startup complete.
+2025-03-26 19:23:56,465 - main - INFO - Endpoint raíz accedido
+2025-03-26 19:23:59,269 - main - INFO - Endpoint raíz accedido
+2025-03-26 19:24:40,818 - main - INFO - Cargando modelo desde modelo_cancer_mama.pkl
+2025-03-26 19:24:40,822 - main - INFO - Modelo cargado exitosamente
+2025-03-26 19:24:40,823 - main - INFO - Endpoint de predicción accedido
+2025-03-26 19:24:40,831 - main - INFO - Predicción realizada: {'prediccion': 0, 'etiqueta_prediccion': np.str_('malignant'), 'probabilidad': 0.96}
+2025-03-26 19:29:44,700 - main - INFO - Cargando modelo desde modelo_cancer_mama.pkl
+2025-03-26 19:29:44,702 - main - INFO - Modelo cargado exitosamente
+2025-03-26 19:29:44,703 - main - INFO - Endpoint de predicción accedido
+2025-03-26 19:29:44,708 - main - INFO - Predicción realizada: {'prediccion': 0, 'etiqueta_prediccion': np.str_('malignant'), 'probabilidad': 0.96}
+2025-03-26 19:29:49,669 - main - INFO - Cargando modelo desde modelo_cancer_mama.pkl
+2025-03-26 19:29:49,672 - main - INFO - Modelo cargado exitosamente
+2025-03-26 19:29:49,672 - main - INFO - Endpoint de predicción accedido
+2025-03-26 19:29:49,679 - main - INFO - Predicción realizada: {'prediccion': 0, 'etiqueta_prediccion': np.str_('malignant'), 'probabilidad': 0.96}
+2025-03-26 19:30:03,094 - main - INFO - Cargando modelo desde modelo_cancer_mama.pkl
+2025-03-26 19:30:03,097 - main - INFO - Modelo cargado exitosamente
+2025-03-26 19:30:03,097 - main - INFO - Endpoint de predicción accedido
+2025-03-26 19:30:03,104 - main - INFO - Predicción realizada: {'prediccion': 0, 'etiqueta_prediccion': np.str_('malignant'), 'probabilidad': 0.96}
+2025-03-26 19:31:15,220 - main - INFO - Endpoint raíz accedido
+2025-03-26 19:31:56,732 - uvicorn.error - INFO - Started server process [6776]
+2025-03-26 19:31:56,732 - uvicorn.error - INFO - Waiting for application startup.
+2025-03-26 19:31:56,733 - main - INFO - Iniciando el servidor API
+2025-03-26 19:31:56,733 - main - INFO - Cargando modelo desde modelo_cancer_mama.pkl
+2025-03-26 19:31:56,737 - main - INFO - Modelo cargado exitosamente
+2025-03-26 19:31:56,737 - main - INFO - Servidor API iniciado exitosamente
+2025-03-26 19:31:56,737 - uvicorn.error - INFO - Application startup complete.
