@@ -106,7 +106,3 @@ Para usar el notebook de Colab:
 
 1. Sube el archivo `breast_cancer_api_colab.ipynb` a Google Colab
 2. Sigue las instrucciones paso a paso en el notebook
-
-## Licencia
-
-MIT
